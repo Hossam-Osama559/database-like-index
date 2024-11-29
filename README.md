@@ -10,3 +10,14 @@ with helper json file called "current_page.json" that keeps track the number of 
 and a text file called "node.txt" that help to persist the b tree by inserting to it the id and the page number 
 and another helper function "handle_search" that take id and begin to search for it in the tree by its o(log n) advantage then if it exist take the page number and 
 begin to extract all the record from it 
+
+
+
+
+incoming improvments 
+1/to use the myisam stratigy by compute the exact byte where the record start
+and reading only the needed blocks that contain the record instead of reading all the file 
+
+2/include delete method in the tree
+
+
